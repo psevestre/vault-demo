@@ -12,7 +12,6 @@ import lombok.Data;
  * @author Philippe
  *
  */
-@Table("account")
 @Data
 public class Account {
 	
