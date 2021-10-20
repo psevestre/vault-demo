@@ -3,5 +3,11 @@ spring:
   cloud:
     vault:
       kv:
-        enabled: true
+        enabled: false
         backend: secret
+      database:
+        enabled: true
+        role: fakebank-rw
+        username-property: "spring.r2dbc.username"
+        password-property: "spring.r2dbc.password"
+        backend: database
