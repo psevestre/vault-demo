@@ -1,0 +1,7 @@
+
+spring:
+  cloud:
+    vault:
+      kv:
+        enabled: true
+        backend: secret

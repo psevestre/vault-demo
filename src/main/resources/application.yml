@@ -1,5 +1,7 @@
 
 spring:
+  application:
+    name: vault-demo
   r2dbc:
     url: r2dbc:mysql://127.0.0.1:3306/fakebank?sslMode=DISABLED
     
